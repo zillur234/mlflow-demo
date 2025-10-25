@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # DagsHub MLflow connection
-mlflow.set_tracking_uri("https://dagshub.com/<USERNAME>/<REPO>.mlflow")
+mlflow.set_tracking_uri("https://dagshub.com/syedzillur234/mlflow-demo.mlflow")
 mlflow.set_experiment("simple-demo")
 
 # optional if using token
