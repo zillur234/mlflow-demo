@@ -1,0 +1,7 @@
+name: mlflow_demo
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python train.py"
